@@ -7,6 +7,7 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/jesseduffield/gocui"
 	"github.com/jesseduffield/lazygit/pkg/commands/git_commands"
 	"github.com/jesseduffield/lazygit/pkg/commands/models"
 	"github.com/jesseduffield/lazygit/pkg/config"
@@ -383,7 +384,7 @@ func (self *WorkingTreeHelper) CreateMergeConflictMenu(selectedFilepaths []strin
 				OnPress: func() error {
 					return onMergeStrategySelected("--ours")
 				},
-				Key: 'c',
+				Key: gocui.NewKeyRune('c'),
 			},
 			{
 				LabelColumns: []string{
@@ -393,7 +394,7 @@ func (self *WorkingTreeHelper) CreateMergeConflictMenu(selectedFilepaths []strin
 				OnPress: func() error {
 					return onMergeStrategySelected("--theirs")
 				},
-				Key: 'i',
+				Key: gocui.NewKeyRune('i'),
 			},
 			{
 				LabelColumns: []string{
@@ -403,7 +404,7 @@ func (self *WorkingTreeHelper) CreateMergeConflictMenu(selectedFilepaths []strin
 				OnPress: func() error {
 					return onMergeStrategySelected("--union")
 				},
-				Key: 'b',
+				Key: gocui.NewKeyRune('b'),
 			},
 			{
 				LabelColumns: []string{
@@ -411,7 +412,7 @@ func (self *WorkingTreeHelper) CreateMergeConflictMenu(selectedFilepaths []strin
 					cmdColor.Sprint("git mergetool"),
 				},
 				OnPress: self.OpenMergeTool,
-				Key:     'm',
+				Key:     gocui.NewKeyRune('m'),
 			},
 		},
 	})
