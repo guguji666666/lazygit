@@ -1041,7 +1041,7 @@ func GetDefaultConfig() *UserConfig {
 				MarkCommitAsBaseForRebase:      "B",
 				CreateTag:                      "T",
 				CheckoutCommit:                 "<space>",
-				ResetCherryPick:                "<c-R>",
+				ResetCherryPick:                "<c-r>",
 				CopyCommitAttributeToClipboard: "y",
 				OpenLogMenu:                    "<c-l>",
 				OpenInBrowser:                  "o",
