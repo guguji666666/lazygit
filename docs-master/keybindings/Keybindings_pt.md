@@ -241,8 +241,8 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 | Key | Action | Info |
 |-----|--------|-------------|
-| `` mouse wheel down (fn+up) `` | Rolar para baixo |  |
-| `` mouse wheel up (fn+down) `` | Rolar para cima |  |
+| `` <mouse wheel down> (fn+up) `` | Rolar para baixo |  |
+| `` <mouse wheel up> (fn+down) `` | Rolar para cima |  |
 | `` <tab> `` | Mudar de visão | Alternar para outra visão (staged/não processadas alterações). |
 | `` <esc> `` | Exit back to side panel |  |
 | `` / `` | Search the current view by text |  |

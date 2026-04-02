@@ -42,8 +42,6 @@ github.com/fatih/color
 # github.com/gdamore/encoding v1.0.1
 ## explicit; go 1.9
 github.com/gdamore/encoding
-# github.com/gdamore/tcell/v2 v2.13.8
-## explicit; go 1.24.0
 # github.com/gdamore/tcell/v3 v3.1.2
 ## explicit; go 1.24.0
 github.com/gdamore/tcell/v3
@@ -73,7 +71,7 @@ github.com/integrii/flaggy
 github.com/jesseduffield/generics/maps
 github.com/jesseduffield/generics/orderedset
 github.com/jesseduffield/generics/set
-# github.com/jesseduffield/gocui v0.3.1-0.20260401135349-32e05c356c16
+# github.com/jesseduffield/gocui v0.3.1-0.20260402160258-57cf68610a53
 ## explicit; go 1.25.0
 github.com/jesseduffield/gocui
 # github.com/jesseduffield/lazycore v0.0.0-20221012050358-03d2e40243c5
