@@ -252,7 +252,7 @@ func coloredStateText(state string) string {
 	if icons.IsIconEnabled() {
 		return fmt.Sprintf("%s%s%s",
 			withPrFgColor(state, ""),
-			withPrBgColor(state, style.FgWhite.Sprint(stateText(state))),
+			withPrBgColor(state, color.RGB(0xFF, 0xFF, 0xFF, false).Sprint(stateText(state))),
 			withPrFgColor(state, ""))
 	}
 
